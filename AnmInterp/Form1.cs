@@ -237,5 +237,10 @@ namespace AnmInterp {
             float w = q[3]*r[3] - q[0]*r[0] - r[1]*q[1] - q[2]*r[2];
             p[0]=x; p[1]=y; p[2]=z; p[3]=w;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lstFiles.Items.Clear();
+        }
     }
 }
